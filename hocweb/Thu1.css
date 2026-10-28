@@ -1,0 +1,90 @@
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+    border: 1px solid #333;
+}
+
+/* Header */
+header {
+    background: white;
+    color: #1a306b;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+}
+
+/* Sidebar */
+.sidebar {
+    float: left;
+    width: 35%;
+    min-height: 42rem;
+    padding: 1.5rem;
+    border-right: 1px solid #333;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+/* Nội dung chính */
+main {
+    float: left;
+    width: 65%;
+    padding: 1.5rem;
+}
+
+main h2 {
+    color: #1a306b;
+    font-size: 2.2rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+main p {
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.notice {
+    background: #fff8dc;
+    border: 1px dashed orange;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background: white;
+    color: #1a306b;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    border-top: 1px solid #333;
+}
